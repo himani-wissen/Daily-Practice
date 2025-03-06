@@ -1,0 +1,24 @@
+java- to run the application
+javac- java compiler- needed to compile the application
+jshell- it's a tool run on terminal to execute java code getting immediate results
+methods- in java to do anything we have to use methods.
+Systtem.out.print- to print something
+JVM- java is platform independent it doesn't care about hardware or OS it only requires JVM. it only understands byte code. 
+
+person->java code->javac->byte code-> jvm->jre
+
+execution starts from main - public static void main (string arg[])
+java is object oriented
+JRE- Java Runtime Environment-JRE is a software package that provides libraries and environment for running Java applications.Provides essential libraries and dependencies required to run Java programs.
+JVM- Java Virtual Machine-JVM is an abstract machine that executes Java bytecode.
+Converts Java bytecode into machine-specific code at runtime.
+
+Java is platform-independent because Java programs are compiled into bytecode, which can run on any system that has a Java Virtual Machine (JVM). Unlike languages like C or C++, which generate platform-specific machine code, Java’s bytecode is the same across all platforms.ja
+This means that once you compile Java code on one system, you can run it on any other system with a compatible JVM—without recompilation
+WORA – Write Once, Run Anywhere
+WORA (Write Once, Run Anywhere) means that Java developers only need to write and compile their program once, and it can run on any operating system with a JVM.
+datatypes- primitive->integers, float, characters, boolean- simple, basic, easy to use with--subtypes
+integers- byte, short, int, long
+float- double, float use(f)
+character-2 bytes, unicode
+boolean- true or false
