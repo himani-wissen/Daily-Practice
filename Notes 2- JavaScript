@@ -1,0 +1,86 @@
+ctrl+ L= empty console
+alert("");= pop up in page
+console.log("");
+variables are containers for data
+don't need to mention data type
+variables are case sensitive- upper and lowercase matters
+in 2015 ES6- ECMA script 6- new standards, rules, features 
+var: old concept, can be re-declared and updated. global scope variable. can be used anywhere in code
+let: can not be redeclared but can be updated. a block scoped variable. can be used in between {}.
+const: variable cannot be redeclared or updated. a block scoped variable.
+if we declare a variable using let but don't assign it a value then it will print undefined.
+DATA TYPES IN JS
+primitive data types- 7 types- number, string, Boolean, null, bigint, symbol, undefined
+non-primitive data types- objects-arrays, functions- objects is a collection of values. key-value pairs
+we can update the const object's key  
+typeof- to check data type
+const object{
+	name: xyz,
+	age: 234,
+	}
+COMMENTS
+//- single line
+/**/- multi line
+OPERATORS
+arithmetic- unary operator- they need only one operand- incrment and decrement- post and pre, pre does the operation and stores it first then print, post assigns it and then does the operation from  the next line.
+ternary operator-3 operands- a1>a2 ? b:c
+comparison operators- ==: checks values, ===: checks value and data type- stricter version, !=
+logical operators- &&, ||,!
+bitwise operator
+CONDITIONAL STATEMENTS
+if statement
+if else statement
+else if statement
+switch statement
+
+ALERT- only message
+PROMPT= allows some input with message
+prompt("");
+
+LOOPS IN JS
+loops are used to execute a piece of code again and again
+for(let i=5; i<=5; i++){
+	console.log("");
+}
+infinite loop: a loop that never ends
+while loops: while(condition){
+//updation
+}
+do-while loops: runs atleast once
+	do{
+	//does some work
+	}while (condition);
+for-of loops: help to iterate some special data types likes strings and arrays. goes through the entire string or array.
+	for(let val of strVar){
+		//do some work
+	}
+for-in loops: it has keys of the object for example-
+let student={
+	name: "Rahul",
+	age: 20,
+	cgpa:7.5
+	};
+for (let key in student){
+	console.log("key=",key,"value=",student[key]);
+	}
+STRINGS IN JS
+let str= "";
+str.length
+str indices start from 0
+TEMPLATE LITERALS IN JS: a way to have embedded expressions in strings. it is a string only. it uses backtiks.
+string interpolation: to create strings by doing substitution of placeholders.
+escape characters: \n, \t, counts as a single character.
+STRING METHODS: built in functions to manipulate a string. strings are immuatable meaning no change. everytime new string is created.
+str.toUpperCase()
+str.toLowerCase()
+str.trim()- removes white spaces
+str.concat= str1+str2
+str.replace= search in string and replace the value
+str.charAt= find value at index
+
+ARRAYS IN JS: collection of items of same type
+arr.length;
+property gives value, method does some work
+array is a type of object only
+arrays are mutable
+strings are immutable	
