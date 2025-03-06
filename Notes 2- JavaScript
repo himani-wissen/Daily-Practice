@@ -1,6 +1,7 @@
 ctrl+ L= empty console
 alert("");= pop up in page
 console.log("");
+
 variables are containers for data
 don't need to mention data type
 variables are case sensitive- upper and lowercase matters
