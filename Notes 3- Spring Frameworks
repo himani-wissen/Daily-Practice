@@ -1,0 +1,21 @@
+Spring Frameworks
+Spring Core--all about data which can be sent to other application either to store data database or retrieve something or perform some operation on it. how to manage objects, how many objects should be added or removed.
+Spring Web MVC- model view controller, view part has gone to angular and react, controller part has gone to spring rest.model part is spring core. this is not much in use nowadays. But yes, if you are working on some legacy applications or projects where they're still using the spring web module, then yes, you may be needing to know this OK.
+Spring REST-
+Spring Data JPA- Spring Data JPA is all about the implementation of data integration related. ORM object relational mapping. OK so all this kind of concepts or design patterns are actually implemented here by spring data JPA
+Spring Test- for testing patterns
+Spring AOP- Aspect oriented programming, is all about the behavioral design pattern
+
+1st We covered Java how to write a program, class object, inheritance, polymorphism, these at all the concept, exception handling, multithreading.
+Design patterns that how better we can implement it.
+We just went to DevOps.
+That's the reason because we want to use those tools to do the things faster or in the industry, OK, when at big level when you are developing, OK, then all the things are integrated in with each other.
+
+SPRING CORE-
+DI= Dependency Injection, 3 types- constructor injection, setter injection, field injection.
+IOC= Inversion of Control2 types- bean factory, application context (it's an extension of bean factory, hence uses more resources)
+SPRING- springboot is part of spring
+SPRINGBOOT- modern way of creating spring applications. much more easy manner. it simplifies spring. helps to do things we did in spring. features- autoconfiguration, spring initializr/starter kit.
+embedded server
+inbuilt h2 db
+actuators- is application running fine, how many objects are being collected, how many are being used, What is the total number of request they're actually able to process at any given point of time, check the runtime behaviour of the application.
