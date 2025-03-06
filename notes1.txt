@@ -1,0 +1,34 @@
+ES6 features-
+ECMA SCRIPT
+Arrow functions
+Classes
+let
+const
+OOPs
+Promises
+Spread
+Rest
+async
+await
+Template literals
+for-in
+for-of
+default parameters
+Deconstructing/ destructuring
+Modules
+
+ES7/ TypeScript features-
+type safe
+interface
+generics
+exponential operator
+access specifiers- private, public, protected
+
+at the end of everything everything is converted into bytecode
+you can never directly execute typescript. it transpiles into javascript then executes.
+javascript can run on node js because it is built on google's v8 engine
+ts->js-> interpreted
+Transpile- combination of transformation and compilation. transforming one source code to another source code.
+Compile
+because of type safety we should use type script
+Detects errors at compile time instead of runtime.
